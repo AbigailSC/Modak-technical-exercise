@@ -1,0 +1,39 @@
+@media (min-width: 640px) {
+  /* Rules for 640px and up */
+  body {
+    font-size: 16px;
+    background-color: aquamarine;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Rules for 768px and up */ 
+  body {
+    font-size: 16px;
+    background-color: red;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Rules for 1024px and up */ 
+  body {
+    font-size: 16px;
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* Rules for 1280px and up */ 
+  body {
+    font-size: 16px;
+    background-color: green;
+  }
+}
+
+@media (min-width: 1536px) {
+  /* Rules for 1536px and up */
+  body {
+    font-size: 16px;
+    background-color: yellow;
+  }
+}
