@@ -1,2 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'responsive';
+
+/* Colors */
+
+$primaryColor: #006A61;
+$secondaryColor: #DCEBE8;
+$backgroundColor: #FAFDFB;
+$backgroundSecondaryColor: #EDF5F3;
+$color: #1E1E1E;
+
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: $backgroundColor;
+  color: $color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Globals */
+
+.mat-form-field {
+  width: 100%;
+  color: $color;
+}
+
+.basic-container .mat-step-header .mat-step-icon-selected {
+  background-color: #6cb73a;
+  color: $color;
+}
+
+.mat-step-header .mat-step-icon {
+  background-color: $secondaryColor;
+  color: $color;
+}
+
+::ng-deep .mat-step-header .mat-step-icon-selected {
+  background-color: $primaryColor;
+  color: $backgroundColor;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline, .mat-hint,
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick,
+::ng-deep .mat-select-value-text {
+  color: $color;
+}
